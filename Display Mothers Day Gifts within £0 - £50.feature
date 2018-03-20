@@ -12,5 +12,5 @@ Scenario: Searching for a valid product within a specific price range
 
 Given a customer is searching for a mothers day gift 
 And wants the price between £0 and £50
-When the customer enters the mothers day gift and selects the £50 and submits the request
+When the customer enters 'Mothers day gifts' and selects the £50 and submits the request
 Then the relevant products up to £50 are returned with the most appropriate products at the top
