@@ -1,5 +1,3 @@
-# NOTH
-Noths QA technical test.
 Feature: Search for a Mothers Day Gift
 
 Customers should be able to search using a general phrase or for a specific product.  
