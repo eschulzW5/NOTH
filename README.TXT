@@ -1,4 +1,4 @@
-Ensure the following is indstalled:
+Ensure the following is installed:
   Ruby (2.3.3 or higher)
   Selenium Webdriver (3.2.1) 
   Cucumber (2.4.0)
@@ -17,5 +17,5 @@ Ensure the following is indstalled:
    Reports
    
  Execute - cucumber mothersdaygiftfreedelivery.feature --format html --out report.html --format pretty
- Results will be saved in report.html 
+ Results will be saved in report.html - An example report can be found in the repo.
   
