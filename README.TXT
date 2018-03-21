@@ -15,5 +15,7 @@ Ensure the following is installed:
      Support
    Reports
    
- Execute - cucumber XXXXXX.feature --format html --out report.html --format pretty
- Results will be saved in report.html - An example report can be found in the repo.
+ Run this command to execute the test 
+ cucumber XXXXXX.feature --format html --out report.html --format pretty
+ 
+ Results will be saved in report.html. An example report can be found in the repo.
