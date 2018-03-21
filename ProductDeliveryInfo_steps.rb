@@ -12,7 +12,7 @@ end
 Then(/^the product delivery information is displayed$/) do
   wait = Selenium::WebDriver::Wait.new(:timeout => 5) # seconds
   begin
-  	element = wait.until { driver.find_element(:class_name => "ui-state-default delivery_tab ui-tabs-selected ui-state-active") }
+  	element = wait.until { driver.find_element(:class_name => "ui-tabs-selected") }
   ensure
     driver.quit
   end
