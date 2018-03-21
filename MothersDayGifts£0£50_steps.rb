@@ -1,7 +1,7 @@
 require 'selenium-webdriver'
 driver = Selenium::WebDriver.for :firefox
 
-Given(/^a customer naviagtes to the homepage$/) do
+Given(/^a customer navigates to the homepage$/) do
   driver.navigate.to "http://notonthehighstreet.com/"
 end
 
