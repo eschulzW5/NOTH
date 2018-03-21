@@ -10,7 +10,6 @@ Acceptance Criteria:
 
 Scenario: Selecting a product to view its delivery information
 
-Given a customer wishes to view a products delivery information
-When The customer selects a product 
-Then the product information is displayed
-And there is delivery information is displayed on the page.
+Given a customer navigates to the product page
+When the customer selects delivery information 
+Then the product delivery information is displayed
