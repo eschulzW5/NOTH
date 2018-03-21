@@ -6,8 +6,8 @@ Given(/^a customer navigates to the homepage$/) do
 end
 
 When(/^The customer enters ‘Mothers Day Gifts and £0-£50 and submits the request$/) do
-  driver.find_element(:id, 'term').send_keys("Mothers day gifts £0-£50")
-  driver.find_element(:class_name, 'gc-form__field--submit).click
+  driver.find_element(:id, 'term').send_keys("Mothers day gifts £0 - £50")
+  driver.find_element(:class_name, 'gc-form__field--submit').click
 end
 
 Then(/^the relevant items are returned$/) do
