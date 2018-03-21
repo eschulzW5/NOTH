@@ -8,7 +8,7 @@ Ensure the following is installed:
   Watir
   Geckodriver
   
- Create the following framework with the provied feature and ruby files.
+ Create the following framework with the provided feature and ruby files.
  
  Project
    Features
@@ -16,6 +16,5 @@ Ensure the following is installed:
      Support
    Reports
    
- Execute - cucumber mothersdaygiftfreedelivery.feature --format html --out report.html --format pretty
+ Execute - cucumber XXXXXX.feature --format html --out report.html --format pretty
  Results will be saved in report.html - An example report can be found in the repo.
-  
