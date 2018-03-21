@@ -13,6 +13,6 @@ Acceptance Criteria:
 
 Scenario: Searching for a mothers day gift with free delivery
 
-Given a customer naviagtes to the homepage
+Given a customer navigates to the homepage
 When The customer enters ‘Mothers Day Gifts and free delivery and submits the request
 Then the relevant items are returned                                                                                  
