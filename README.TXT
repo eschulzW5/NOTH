@@ -3,7 +3,6 @@ Ensure the following is installed:
   Selenium Webdriver (3.2.1) 
   Cucumber (2.4.0)
   Gherkin (4.1.1)
-  Text Editor or IDE (SublimeText, Atom, Notepad++, Eclipse)
   Firefox 
   Watir
   Geckodriver
